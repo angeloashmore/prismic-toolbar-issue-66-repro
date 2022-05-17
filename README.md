@@ -4,14 +4,18 @@ This is a reproduction of [prismicio/prismic-toolbar issue #66](https://github.c
 
    ```
    npx prismic-cli@latest theme --theme-url https://github.com/angeloashmore/prismic-toolbar-issue-66-repro --conf sm.json
+   cd prismic-toolbar-issue-66-repro
    ```
 
 1. Start Slice Machine and push the Page Custom Type.
 
+   ```sh
+   npm run slicemachine
+   ```
+
 1. Start the server.
 
    ```sh
-   cd prismic-toolbar-issue-66-repro
    npm run dev
    ```
 
