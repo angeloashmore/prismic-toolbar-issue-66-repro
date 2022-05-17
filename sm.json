@@ -1,0 +1,7 @@
+{
+  "_latest": "0.3.7",
+  "apiEndpoint": "https://prismic-toolbar-issue-66-repro.prismic.io/api/v2",
+  "libraries": [
+    "@/slices"
+  ]
+}
