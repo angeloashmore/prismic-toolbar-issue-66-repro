@@ -6,6 +6,8 @@ This is a reproduction of [prismicio/prismic-toolbar issue #66](https://github.c
    npx prismic-cli@latest theme --theme-url https://github.com/angeloashmore/prismic-toolbar-issue-66-repro --conf sm.json
    ```
 
+1. Start Slice Machine and push the Page Custom Type.
+
 1. Start the server.
 
    ```sh
@@ -15,9 +17,9 @@ This is a reproduction of [prismicio/prismic-toolbar issue #66](https://github.c
 
 1. Open the Prismic repo by navigating to <http://localhost:3000/admin> and add a Preview URL for `http://localhost:3000/api/preview`.
 
-1. Create a page to preview. The repository will include a basic Page Custom Type.
+1. Creaet and publish a page to preview.
 
-1. Preview the document.
+1. Edit the document and preview it.
 
 1. While keeping the preview window open, create a new window with the same URL. You should see the preview session in both windows.
 
