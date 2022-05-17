@@ -13,16 +13,20 @@ type PageParams = {
 };
 
 const Page: NextPage<PageProps> = ({ page }) => {
+  const count = 5000;
+
   return (
     <div>
-      <p>The raw page:</p>
-      {Array(1000)
-        .fill(undefined)
-        .map((_, i) => (
-          <pre key={i}>
-            <code>{JSON.stringify(page, null, 4)}</code>
-          </pre>
-        ))}
+      <p>The page object is printed {count} times to increase load time.</p>
+      <div style={{ padding: "2rem", background: "lightgray" }}>
+        {Array(count)
+          .fill(undefined)
+          .map((_, i) => (
+            <pre key={i}>
+              <code>{JSON.stringify(page, null, 4)}</code>
+            </pre>
+          ))}
+      </div>
     </div>
   );
 };
