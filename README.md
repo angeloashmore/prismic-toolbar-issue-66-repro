@@ -3,7 +3,7 @@ This is a reproduction of [prismicio/prismic-toolbar issue #66](https://github.c
 1. Clone the repository and create a new Prismic repository.
 
    ```
-   npx prismic-cli@latest theme --theme-url https://github.com/angeloashmore/prismic-toolbar-issue-66-repro
+   npx prismic-cli@latest theme --theme-url https://github.com/angeloashmore/prismic-toolbar-issue-66-repro --conf sm.json
    ```
 
 1. Start the server.
