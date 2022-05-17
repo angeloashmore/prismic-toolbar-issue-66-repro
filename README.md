@@ -13,7 +13,9 @@ This is a reproduction of [prismicio/prismic-toolbar issue #66](https://github.c
    npm run dev
    ```
 
-1. In the Prismic repo, create a page to preview. The repository will include a basic Page Custom Type.
+1. Open the Prismic repo by navigating to `<http://localhost:3000/admin>` and add a Preview URL for `http://localhost:3000/api/preview`.
+
+1. Create a page to preview. The repository will include a basic Page Custom Type.
 
 1. Preview the document.
 
