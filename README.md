@@ -10,7 +10,6 @@ This is a reproduction of [prismicio/prismic-toolbar issue #66](https://github.c
 
    ```sh
    cd prismic-toolbar-issue-66-repro
-   npm i
    npm run dev
    ```
 
